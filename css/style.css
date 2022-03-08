@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background-color: #252323;
+    height: 70px;
+    width: 100%;
+}
+
+.logo {
+    padding: 18px 20px;
+    float: left;
+    width: 40px;
+}
+
+.redes-sociais ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+}
+
+.redes-sociais {
+    float: right;
+    height: 5vh;
+    padding-top: 15px;
+    padding-right: 5%;
+}
+.redes-sociais ul li a:hover{
+    background-color: #00bac6;
+}
+
+.menu {
+    background-color: #faf9f9;
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.menu ul li a {
+    color: #9a9a9a;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+    border-bottom: 2px solid #00bac6;
+    
+}
+
+.altura {
+    height: 450px;
+    background-size: cover;
+}
+
+.texto1 {
+    color: #646464;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+::first-line {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    font-family: Arial;
+    text-shadow: 2px 2px 2px black;
+}
+
+.figuras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px;
+}
+
+.paragrafo1 {
+    font-size: 14px;
+}
+
+p {
+    text-indent: 2em;
+    text-align: center;
+    margin: 10px;
+}
+
+.rodape {
+    background-color: #252323;
+    height: 120px;
+    width: 100%;
+    color: #faf9f9;
+    text-align: left;
+}
+
+#pfooter {
+    text-align: left;
+    padding-top: 33px;
+}
+
+.redes-sociais2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+}
+
+.redes-sociais2 {
+    float: right;
+    height: 5vh;
+    padding-right: 30px;
+}
+
+@media (max-width: 600px) {
+    .redes-sociais2 {
+        display: none;
+    }
+}
