@@ -86,9 +86,8 @@ h1 {
     font-size: 14px;
 }
 
-p {
+.card-text {
     text-indent: 2em;
-    text-align: center;
     margin: 10px;
 }
 
@@ -97,15 +96,13 @@ p {
     height: 140px;
     width: 100%;
     color: #faf9f9;
-    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .redes-sociais2 ul li {
-    display: flex;
-    align-items: flex-end;
     display: inline-block;
-    float: right;
-    padding-right: 2%;
+    padding-right: 10px;
 }
 
 .preload {
