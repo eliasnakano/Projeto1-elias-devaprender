@@ -1,16 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 .topo {
     background-color: #0d1ad6;
     height: 70px;
     width: 100%;
+    padding: 20px 20px 20px 20px;
 }
 
 .logo {
-    padding: 18px 20px;
     float: left;
     width: 40px;
 }
@@ -18,26 +19,21 @@
 .redes-sociais ul li {
     list-style: none;
     display: inline-block;
-    padding: 3px;
 }
 
 .redes-sociais {
     float: right;
     height: 5vh;
-    padding-top: 15px;
-    padding-right: 5%;
 }
 
 .menu {
     background-color: #114ff8;
-    display: flex;
-    justify-content: space-around;
     height: 8vh;
+    padding: 9px 9px 9px 9px;
 }
 
 .menu ul li {
     display: inline-block;
-    padding-top: 15px;
     margin-left: 10px;
 }
 
@@ -96,8 +92,8 @@ h1 {
     height: 140px;
     width: 100%;
     color: #faf9f9;
-    display: flex;
     align-items: center;
+    padding: 20px 20px 20px 20px;
 }
 
 .redes-sociais2 ul li {
