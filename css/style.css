@@ -5,10 +5,10 @@
 }
 
 .topo {
-    background-color: #0d1ad6;
+    background-color: #3498db;
     height: 70px;
     width: 100%;
-    padding: 20px 20px 20px 20px;
+    padding: 22px;
 }
 
 .logo {
@@ -27,9 +27,9 @@
 }
 
 .menu {
-    background-color: #114ff8;
+    background-color: #2980b9;
     height: 8vh;
-    padding: 9px 9px 9px 9px;
+    padding: 12px;
 }
 
 .menu ul li {
@@ -88,10 +88,10 @@ h1 {
 }
 
 .rodape {
-    background-color: #0d1ad6;
+    background-color: #3498db;
     height: 140px;
     width: 100%;
-    color: #faf9f9;
+    color: #ffffff;
     align-items: center;
     padding: 20px 20px 20px 20px;
 }
@@ -113,4 +113,9 @@ h1 {
     background-image: url('../img/logo.png');
     background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+#formulario {
+    background-color: #b5f0f5;
+    padding: 30px;
 }
