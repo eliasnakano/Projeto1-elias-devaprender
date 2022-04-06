@@ -45,9 +45,26 @@
     font-size: 17px;
 }
 
+@keyframes menu {
+    0% {
+        color: #a6ce14;
+    }
+    25% {
+        color: #00c66a;
+    }
+    75% {
+        color: #00c6b5;
+    }
+    100% {
+        color: #00bac6;
+    }
+}
+
 .menu ul li a:hover {
     color: #00bac6;
     border-bottom: 2px solid #00bac6;
+    animation-name: menu;
+    animation-duration: 3s;
 }
 
 .altura {
@@ -94,6 +111,10 @@ h1 {
     color: #ffffff;
     align-items: center;
     padding: 20px 20px 20px 20px;
+}
+
+.pfooter {
+    clear: left;
 }
 
 .redes-sociais2 ul li {
